@@ -6,3 +6,139 @@ Green: #00B172
 White: #FFF
 
 */
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo {
+  width: 12%;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
+.hero-image {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw; /* viewport-width: 100% da quantidade de pixels disponíveis na tela */
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  text-align: justify;
+}
+
+.hero-image h1 {
+  font-size: 60px;
+}
+
+.hero-image h2 {
+  font-size: 30px;
+  display: flex;
+}
+
+.whats {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.whats p {
+  border-bottom: 3px solid #00b172;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.music-icon {
+  margin: 10px;
+  border: 5px solid #00b172;
+  text-align: center;
+}
+.music-icon b {
+  color: #00b172;
+}
+
+.hd-icon {
+  margin: 10px;
+  border: 5px solid #00b172;
+  text-align: center;
+}
+.hd-icon b {
+  color: #00b172;
+}
+
+.device {
+  margin: 10px;
+  border: 5px solid #00b172;
+  text-align: center;
+}
+.device b {
+  color: #00b172;
+}
+
+.content2 {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-around;
+}
+
+.txt {
+  text-align: justify;
+  color: #fff;
+}
+
+.txt h1 {
+  border-bottom: 3px solid #fff;
+}
+
+.icon {
+  margin-top: 350px;
+  width: 10%;
+  height: 10%;
+}
